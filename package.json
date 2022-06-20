@@ -1,17 +1,21 @@
 {
-  "name": "nycmesh-configgen",
+  "name": "tucsonmesh-configgen",
+  "homepage": "https://mackncheesiest.github.io/tucsonmesh-configgen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "highlight.js": "^10.5.0",
     "mustache": "^3.0.0",
     "qs": "^6.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.1",
+    "react-scripts": "^5.0.1",
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
