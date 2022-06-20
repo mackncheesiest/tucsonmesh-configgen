@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tucsonmesh-configgen/static/css/main.793cc224.css",
+    "main.js": "/tucsonmesh-configgen/static/js/main.7d0609e6.js",
+    "index.html": "/tucsonmesh-configgen/index.html",
+    "main.793cc224.css.map": "/tucsonmesh-configgen/static/css/main.793cc224.css.map",
+    "main.7d0609e6.js.map": "/tucsonmesh-configgen/static/js/main.7d0609e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.793cc224.css",
+    "static/js/main.7d0609e6.js"
+  ]
+}
